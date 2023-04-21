@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 
 class LightsController extends Controller
 {
-    
+
     public function toggle($status)
     {
 
@@ -34,6 +34,6 @@ class LightsController extends Controller
     public function getStatus(){
         return response()->json([
             "lightsStatus"=>Lights::getStatus(),
-        ])
+        ]);
     }
 }
