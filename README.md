@@ -16,7 +16,7 @@ PUT http://endpointAddress/api/lights/off
 
 ```
 {
-	"status": true
+	"success": true
 }
 ```
 در صورت true بودن عملیات موفقیت آمیز بوده است و در غیر این صورت عملیات انجام نشده است.
