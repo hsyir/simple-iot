@@ -5,7 +5,7 @@
 
 #### روشن و خاموش کردن
 برای خاموش یا روشن کردن لامپ از آدرس زیر استفاده می‌شود:
-``` 
+```
 // روشن کردن
 PUT http://endpointAddress/api/lights/on
 
@@ -14,7 +14,7 @@ PUT http://endpointAddress/api/lights/off
 ```
 مقدار بازگشتی یک json به فرمت زیر خواهد بود
 
-```
+```json
 {
 	"success": true
 }
