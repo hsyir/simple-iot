@@ -27,7 +27,7 @@ PUT http://endpointAddress/api/lights/off
 جهت دریافت وضعیت خاموش یا روشن بودن لامپ از آدرس زیر استفاده می‌شود:
 
 ```
-GET http://endpointAddress/api/lights/getStatus
+GET http://endpointAddress/api/lights/status
 ```
 
 پاسخ یک مقدار json به صورت زیر خواهد بود:
